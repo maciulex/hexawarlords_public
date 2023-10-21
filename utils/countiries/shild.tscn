@@ -1,0 +1,60 @@
+[gd_scene load_steps=6 format=3 uid="uid://em4gh2tf04kp"]
+
+[ext_resource type="Script" path="res://utils/countiries/shild.gd" id="1_g3aye"]
+
+[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_eqgge"]
+load_path = "res://.godot/imported/shild.png-1a6fd2c8483140c12d6a99eed3882dac.ctex"
+
+[sub_resource type="Animation" id="Animation_dy6hk"]
+resource_name = "bigger"
+length = 1.5
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("Shild:scale")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0, 1.5),
+"transitions": PackedFloat32Array(1, 1),
+"update": 0,
+"values": [Vector2(0.09, 0.09), Vector2(0.15, 0.15)]
+}
+
+[sub_resource type="Animation" id="Animation_nn1ui"]
+resource_name = "smaller"
+length = 1.5
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("Shild:scale")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0, 1.5),
+"transitions": PackedFloat32Array(1, 1),
+"update": 0,
+"values": [Vector2(0.15, 0.15), Vector2(0.09, 0.09)]
+}
+
+[sub_resource type="AnimationLibrary" id="AnimationLibrary_n73uw"]
+_data = {
+"bigger": SubResource("Animation_dy6hk"),
+"smaller": SubResource("Animation_nn1ui")
+}
+
+[node name="shild" type="Node2D"]
+script = ExtResource("1_g3aye")
+
+[node name="Shild" type="Sprite2D" parent="."]
+position = Vector2(-2, 1)
+scale = Vector2(0.09, 0.09)
+texture = SubResource("CompressedTexture2D_eqgge")
+
+[node name="AnimationPlayer" type="AnimationPlayer" parent="."]
+reset_on_save = false
+libraries = {
+"": SubResource("AnimationLibrary_n73uw")
+}
+
+[connection signal="animation_finished" from="AnimationPlayer" to="." method="_on_animation_player_animation_finished"]

@@ -1,0 +1,906 @@
+[gd_scene load_steps=4 format=3 uid="uid://cw6mly0fvu8bi"]
+
+[ext_resource type="Script" path="res://utils/hexagons/hex_grid.gd" id="1_e4gq4"]
+[ext_resource type="PackedScene" uid="uid://bexipc5vc38r" path="res://utils/hexagons/hexagon.tscn" id="1_ktehp"]
+[ext_resource type="Script" path="res://utils/hexagons/row_script.gd" id="3_1f2vw"]
+
+[node name="hexGrid" type="Node2D"]
+position = Vector2(25, 20)
+script = ExtResource("1_e4gq4")
+
+[node name="x0" type="Node2D" parent="."]
+script = ExtResource("3_1f2vw")
+
+[node name="hexagon" parent="x0" instance=ExtResource("1_ktehp")]
+
+[node name="hexagon2" parent="x0" instance=ExtResource("1_ktehp")]
+position = Vector2(0, 40)
+
+[node name="hexagon3" parent="x0" instance=ExtResource("1_ktehp")]
+position = Vector2(0, 80)
+
+[node name="hexagon4" parent="x0" instance=ExtResource("1_ktehp")]
+position = Vector2(0, 120)
+
+[node name="hexagon5" parent="x0" instance=ExtResource("1_ktehp")]
+position = Vector2(0, 160)
+
+[node name="hexagon6" parent="x0" instance=ExtResource("1_ktehp")]
+position = Vector2(0, 200)
+
+[node name="hexagon7" parent="x0" instance=ExtResource("1_ktehp")]
+position = Vector2(0, 240)
+
+[node name="hexagon8" parent="x0" instance=ExtResource("1_ktehp")]
+position = Vector2(0, 280)
+
+[node name="hexagon9" parent="x0" instance=ExtResource("1_ktehp")]
+position = Vector2(0, 320)
+
+[node name="hexagon10" parent="x0" instance=ExtResource("1_ktehp")]
+position = Vector2(0, 360)
+
+[node name="hexagon11" parent="x0" instance=ExtResource("1_ktehp")]
+position = Vector2(0, 400)
+
+[node name="hexagon12" parent="x0" instance=ExtResource("1_ktehp")]
+position = Vector2(0, 440)
+
+[node name="x1" type="Node2D" parent="."]
+position = Vector2(36, 0)
+script = ExtResource("3_1f2vw")
+
+[node name="hexagon" parent="x1" instance=ExtResource("1_ktehp")]
+position = Vector2(0, 20)
+
+[node name="hexagon2" parent="x1" instance=ExtResource("1_ktehp")]
+position = Vector2(0, 60)
+
+[node name="hexagon3" parent="x1" instance=ExtResource("1_ktehp")]
+position = Vector2(0, 100)
+
+[node name="hexagon4" parent="x1" instance=ExtResource("1_ktehp")]
+position = Vector2(0, 140)
+
+[node name="hexagon5" parent="x1" instance=ExtResource("1_ktehp")]
+position = Vector2(0, 180)
+
+[node name="hexagon6" parent="x1" instance=ExtResource("1_ktehp")]
+position = Vector2(0, 220)
+
+[node name="hexagon7" parent="x1" instance=ExtResource("1_ktehp")]
+position = Vector2(0, 260)
+
+[node name="hexagon8" parent="x1" instance=ExtResource("1_ktehp")]
+position = Vector2(0, 300)
+
+[node name="hexagon9" parent="x1" instance=ExtResource("1_ktehp")]
+position = Vector2(0, 340)
+
+[node name="hexagon10" parent="x1" instance=ExtResource("1_ktehp")]
+position = Vector2(0, 380)
+
+[node name="hexagon11" parent="x1" instance=ExtResource("1_ktehp")]
+position = Vector2(0, 420)
+
+[node name="hexagon12" parent="x1" instance=ExtResource("1_ktehp")]
+position = Vector2(0, 460)
+
+[node name="x2" type="Node2D" parent="."]
+position = Vector2(72, 0)
+script = ExtResource("3_1f2vw")
+
+[node name="hexagon" parent="x2" instance=ExtResource("1_ktehp")]
+
+[node name="hexagon2" parent="x2" instance=ExtResource("1_ktehp")]
+position = Vector2(0, 40)
+
+[node name="hexagon3" parent="x2" instance=ExtResource("1_ktehp")]
+position = Vector2(0, 80)
+
+[node name="hexagon4" parent="x2" instance=ExtResource("1_ktehp")]
+position = Vector2(0, 120)
+
+[node name="hexagon5" parent="x2" instance=ExtResource("1_ktehp")]
+position = Vector2(0, 160)
+
+[node name="hexagon6" parent="x2" instance=ExtResource("1_ktehp")]
+position = Vector2(0, 200)
+
+[node name="hexagon7" parent="x2" instance=ExtResource("1_ktehp")]
+position = Vector2(0, 240)
+
+[node name="hexagon8" parent="x2" instance=ExtResource("1_ktehp")]
+position = Vector2(0, 280)
+
+[node name="hexagon9" parent="x2" instance=ExtResource("1_ktehp")]
+position = Vector2(0, 320)
+
+[node name="hexagon10" parent="x2" instance=ExtResource("1_ktehp")]
+position = Vector2(0, 360)
+
+[node name="hexagon11" parent="x2" instance=ExtResource("1_ktehp")]
+position = Vector2(0, 400)
+
+[node name="hexagon12" parent="x2" instance=ExtResource("1_ktehp")]
+position = Vector2(0, 440)
+
+[node name="x3" type="Node2D" parent="."]
+position = Vector2(108, 20)
+script = ExtResource("3_1f2vw")
+
+[node name="hexagon" parent="x3" instance=ExtResource("1_ktehp")]
+
+[node name="hexagon2" parent="x3" instance=ExtResource("1_ktehp")]
+position = Vector2(0, 40)
+
+[node name="hexagon3" parent="x3" instance=ExtResource("1_ktehp")]
+position = Vector2(0, 80)
+
+[node name="hexagon4" parent="x3" instance=ExtResource("1_ktehp")]
+position = Vector2(0, 120)
+
+[node name="hexagon5" parent="x3" instance=ExtResource("1_ktehp")]
+position = Vector2(0, 160)
+
+[node name="hexagon6" parent="x3" instance=ExtResource("1_ktehp")]
+position = Vector2(0, 200)
+
+[node name="hexagon7" parent="x3" instance=ExtResource("1_ktehp")]
+position = Vector2(0, 240)
+
+[node name="hexagon8" parent="x3" instance=ExtResource("1_ktehp")]
+position = Vector2(0, 280)
+
+[node name="hexagon9" parent="x3" instance=ExtResource("1_ktehp")]
+position = Vector2(0, 320)
+
+[node name="hexagon10" parent="x3" instance=ExtResource("1_ktehp")]
+position = Vector2(0, 360)
+
+[node name="hexagon11" parent="x3" instance=ExtResource("1_ktehp")]
+position = Vector2(0, 400)
+
+[node name="hexagon12" parent="x3" instance=ExtResource("1_ktehp")]
+position = Vector2(0, 440)
+
+[node name="x4" type="Node2D" parent="."]
+position = Vector2(144, 0)
+script = ExtResource("3_1f2vw")
+
+[node name="hexagon" parent="x4" instance=ExtResource("1_ktehp")]
+
+[node name="hexagon2" parent="x4" instance=ExtResource("1_ktehp")]
+position = Vector2(0, 40)
+
+[node name="hexagon3" parent="x4" instance=ExtResource("1_ktehp")]
+position = Vector2(0, 80)
+
+[node name="hexagon4" parent="x4" instance=ExtResource("1_ktehp")]
+position = Vector2(0, 120)
+
+[node name="hexagon5" parent="x4" instance=ExtResource("1_ktehp")]
+position = Vector2(0, 160)
+
+[node name="hexagon6" parent="x4" instance=ExtResource("1_ktehp")]
+position = Vector2(0, 200)
+
+[node name="hexagon7" parent="x4" instance=ExtResource("1_ktehp")]
+position = Vector2(0, 240)
+
+[node name="hexagon8" parent="x4" instance=ExtResource("1_ktehp")]
+position = Vector2(0, 280)
+
+[node name="hexagon9" parent="x4" instance=ExtResource("1_ktehp")]
+position = Vector2(0, 320)
+
+[node name="hexagon10" parent="x4" instance=ExtResource("1_ktehp")]
+position = Vector2(0, 360)
+
+[node name="hexagon11" parent="x4" instance=ExtResource("1_ktehp")]
+position = Vector2(0, 400)
+
+[node name="hexagon12" parent="x4" instance=ExtResource("1_ktehp")]
+position = Vector2(0, 440)
+
+[node name="x5" type="Node2D" parent="."]
+position = Vector2(180, 20)
+script = ExtResource("3_1f2vw")
+
+[node name="hexagon" parent="x5" instance=ExtResource("1_ktehp")]
+
+[node name="hexagon2" parent="x5" instance=ExtResource("1_ktehp")]
+position = Vector2(0, 40)
+
+[node name="hexagon3" parent="x5" instance=ExtResource("1_ktehp")]
+position = Vector2(0, 80)
+
+[node name="hexagon4" parent="x5" instance=ExtResource("1_ktehp")]
+position = Vector2(0, 120)
+
+[node name="hexagon5" parent="x5" instance=ExtResource("1_ktehp")]
+position = Vector2(0, 160)
+
+[node name="hexagon6" parent="x5" instance=ExtResource("1_ktehp")]
+position = Vector2(0, 200)
+
+[node name="hexagon7" parent="x5" instance=ExtResource("1_ktehp")]
+position = Vector2(0, 240)
+
+[node name="hexagon8" parent="x5" instance=ExtResource("1_ktehp")]
+position = Vector2(0, 280)
+
+[node name="hexagon9" parent="x5" instance=ExtResource("1_ktehp")]
+position = Vector2(0, 320)
+
+[node name="hexagon10" parent="x5" instance=ExtResource("1_ktehp")]
+position = Vector2(0, 360)
+
+[node name="hexagon11" parent="x5" instance=ExtResource("1_ktehp")]
+position = Vector2(0, 400)
+
+[node name="hexagon12" parent="x5" instance=ExtResource("1_ktehp")]
+position = Vector2(0, 440)
+
+[node name="x6" type="Node2D" parent="."]
+position = Vector2(216, 0)
+script = ExtResource("3_1f2vw")
+
+[node name="hexagon" parent="x6" instance=ExtResource("1_ktehp")]
+
+[node name="hexagon2" parent="x6" instance=ExtResource("1_ktehp")]
+position = Vector2(0, 40)
+
+[node name="hexagon3" parent="x6" instance=ExtResource("1_ktehp")]
+position = Vector2(0, 80)
+
+[node name="hexagon4" parent="x6" instance=ExtResource("1_ktehp")]
+position = Vector2(0, 120)
+
+[node name="hexagon5" parent="x6" instance=ExtResource("1_ktehp")]
+position = Vector2(0, 160)
+
+[node name="hexagon6" parent="x6" instance=ExtResource("1_ktehp")]
+position = Vector2(0, 200)
+
+[node name="hexagon7" parent="x6" instance=ExtResource("1_ktehp")]
+position = Vector2(0, 240)
+
+[node name="hexagon8" parent="x6" instance=ExtResource("1_ktehp")]
+position = Vector2(0, 280)
+
+[node name="hexagon9" parent="x6" instance=ExtResource("1_ktehp")]
+position = Vector2(0, 320)
+
+[node name="hexagon10" parent="x6" instance=ExtResource("1_ktehp")]
+position = Vector2(0, 360)
+
+[node name="hexagon11" parent="x6" instance=ExtResource("1_ktehp")]
+position = Vector2(0, 400)
+
+[node name="hexagon12" parent="x6" instance=ExtResource("1_ktehp")]
+position = Vector2(0, 440)
+
+[node name="x7" type="Node2D" parent="."]
+position = Vector2(252, 20)
+script = ExtResource("3_1f2vw")
+
+[node name="hexagon" parent="x7" instance=ExtResource("1_ktehp")]
+
+[node name="hexagon2" parent="x7" instance=ExtResource("1_ktehp")]
+position = Vector2(0, 40)
+
+[node name="hexagon3" parent="x7" instance=ExtResource("1_ktehp")]
+position = Vector2(0, 80)
+
+[node name="hexagon4" parent="x7" instance=ExtResource("1_ktehp")]
+position = Vector2(0, 120)
+
+[node name="hexagon5" parent="x7" instance=ExtResource("1_ktehp")]
+position = Vector2(0, 160)
+
+[node name="hexagon6" parent="x7" instance=ExtResource("1_ktehp")]
+position = Vector2(0, 200)
+
+[node name="hexagon7" parent="x7" instance=ExtResource("1_ktehp")]
+position = Vector2(0, 240)
+
+[node name="hexagon8" parent="x7" instance=ExtResource("1_ktehp")]
+position = Vector2(0, 280)
+
+[node name="hexagon9" parent="x7" instance=ExtResource("1_ktehp")]
+position = Vector2(0, 320)
+
+[node name="hexagon10" parent="x7" instance=ExtResource("1_ktehp")]
+position = Vector2(0, 360)
+
+[node name="hexagon11" parent="x7" instance=ExtResource("1_ktehp")]
+position = Vector2(0, 400)
+
+[node name="hexagon12" parent="x7" instance=ExtResource("1_ktehp")]
+position = Vector2(0, 440)
+
+[node name="x8" type="Node2D" parent="."]
+position = Vector2(288, 0)
+script = ExtResource("3_1f2vw")
+
+[node name="hexagon" parent="x8" instance=ExtResource("1_ktehp")]
+
+[node name="hexagon2" parent="x8" instance=ExtResource("1_ktehp")]
+position = Vector2(0, 40)
+
+[node name="hexagon3" parent="x8" instance=ExtResource("1_ktehp")]
+position = Vector2(0, 80)
+
+[node name="hexagon4" parent="x8" instance=ExtResource("1_ktehp")]
+position = Vector2(0, 120)
+
+[node name="hexagon5" parent="x8" instance=ExtResource("1_ktehp")]
+position = Vector2(0, 160)
+
+[node name="hexagon6" parent="x8" instance=ExtResource("1_ktehp")]
+position = Vector2(0, 200)
+
+[node name="hexagon7" parent="x8" instance=ExtResource("1_ktehp")]
+position = Vector2(0, 240)
+
+[node name="hexagon8" parent="x8" instance=ExtResource("1_ktehp")]
+position = Vector2(0, 280)
+
+[node name="hexagon9" parent="x8" instance=ExtResource("1_ktehp")]
+position = Vector2(0, 320)
+
+[node name="hexagon10" parent="x8" instance=ExtResource("1_ktehp")]
+position = Vector2(0, 360)
+
+[node name="hexagon11" parent="x8" instance=ExtResource("1_ktehp")]
+position = Vector2(0, 400)
+
+[node name="hexagon12" parent="x8" instance=ExtResource("1_ktehp")]
+position = Vector2(0, 440)
+
+[node name="x9" type="Node2D" parent="."]
+position = Vector2(324, 20)
+script = ExtResource("3_1f2vw")
+
+[node name="hexagon" parent="x9" instance=ExtResource("1_ktehp")]
+
+[node name="hexagon2" parent="x9" instance=ExtResource("1_ktehp")]
+position = Vector2(0, 40)
+
+[node name="hexagon3" parent="x9" instance=ExtResource("1_ktehp")]
+position = Vector2(0, 80)
+
+[node name="hexagon4" parent="x9" instance=ExtResource("1_ktehp")]
+position = Vector2(0, 120)
+
+[node name="hexagon5" parent="x9" instance=ExtResource("1_ktehp")]
+position = Vector2(0, 160)
+
+[node name="hexagon6" parent="x9" instance=ExtResource("1_ktehp")]
+position = Vector2(0, 200)
+
+[node name="hexagon7" parent="x9" instance=ExtResource("1_ktehp")]
+position = Vector2(0, 240)
+
+[node name="hexagon8" parent="x9" instance=ExtResource("1_ktehp")]
+position = Vector2(0, 280)
+
+[node name="hexagon9" parent="x9" instance=ExtResource("1_ktehp")]
+position = Vector2(0, 320)
+
+[node name="hexagon10" parent="x9" instance=ExtResource("1_ktehp")]
+position = Vector2(0, 360)
+
+[node name="hexagon11" parent="x9" instance=ExtResource("1_ktehp")]
+position = Vector2(0, 400)
+
+[node name="hexagon12" parent="x9" instance=ExtResource("1_ktehp")]
+position = Vector2(0, 440)
+
+[node name="x10" type="Node2D" parent="."]
+position = Vector2(360, 0)
+script = ExtResource("3_1f2vw")
+
+[node name="hexagon" parent="x10" instance=ExtResource("1_ktehp")]
+
+[node name="hexagon2" parent="x10" instance=ExtResource("1_ktehp")]
+position = Vector2(0, 40)
+
+[node name="hexagon3" parent="x10" instance=ExtResource("1_ktehp")]
+position = Vector2(0, 80)
+
+[node name="hexagon4" parent="x10" instance=ExtResource("1_ktehp")]
+position = Vector2(0, 120)
+
+[node name="hexagon5" parent="x10" instance=ExtResource("1_ktehp")]
+position = Vector2(0, 160)
+
+[node name="hexagon6" parent="x10" instance=ExtResource("1_ktehp")]
+position = Vector2(0, 200)
+
+[node name="hexagon7" parent="x10" instance=ExtResource("1_ktehp")]
+position = Vector2(0, 240)
+
+[node name="hexagon8" parent="x10" instance=ExtResource("1_ktehp")]
+position = Vector2(0, 280)
+
+[node name="hexagon9" parent="x10" instance=ExtResource("1_ktehp")]
+position = Vector2(0, 320)
+
+[node name="hexagon10" parent="x10" instance=ExtResource("1_ktehp")]
+position = Vector2(0, 360)
+
+[node name="hexagon11" parent="x10" instance=ExtResource("1_ktehp")]
+position = Vector2(0, 400)
+
+[node name="hexagon12" parent="x10" instance=ExtResource("1_ktehp")]
+position = Vector2(0, 440)
+
+[node name="x11" type="Node2D" parent="."]
+position = Vector2(396, 20)
+script = ExtResource("3_1f2vw")
+
+[node name="hexagon" parent="x11" instance=ExtResource("1_ktehp")]
+
+[node name="hexagon2" parent="x11" instance=ExtResource("1_ktehp")]
+position = Vector2(0, 40)
+
+[node name="hexagon3" parent="x11" instance=ExtResource("1_ktehp")]
+position = Vector2(0, 80)
+
+[node name="hexagon4" parent="x11" instance=ExtResource("1_ktehp")]
+position = Vector2(0, 120)
+
+[node name="hexagon5" parent="x11" instance=ExtResource("1_ktehp")]
+position = Vector2(0, 160)
+
+[node name="hexagon6" parent="x11" instance=ExtResource("1_ktehp")]
+position = Vector2(0, 200)
+
+[node name="hexagon7" parent="x11" instance=ExtResource("1_ktehp")]
+position = Vector2(0, 240)
+
+[node name="hexagon8" parent="x11" instance=ExtResource("1_ktehp")]
+position = Vector2(0, 280)
+
+[node name="hexagon9" parent="x11" instance=ExtResource("1_ktehp")]
+position = Vector2(0, 320)
+
+[node name="hexagon10" parent="x11" instance=ExtResource("1_ktehp")]
+position = Vector2(0, 360)
+
+[node name="hexagon11" parent="x11" instance=ExtResource("1_ktehp")]
+position = Vector2(0, 400)
+
+[node name="hexagon12" parent="x11" instance=ExtResource("1_ktehp")]
+position = Vector2(0, 440)
+
+[node name="x12" type="Node2D" parent="."]
+position = Vector2(432, 0)
+script = ExtResource("3_1f2vw")
+
+[node name="hexagon" parent="x12" instance=ExtResource("1_ktehp")]
+
+[node name="hexagon2" parent="x12" instance=ExtResource("1_ktehp")]
+position = Vector2(0, 40)
+
+[node name="hexagon3" parent="x12" instance=ExtResource("1_ktehp")]
+position = Vector2(0, 80)
+
+[node name="hexagon4" parent="x12" instance=ExtResource("1_ktehp")]
+position = Vector2(0, 120)
+
+[node name="hexagon5" parent="x12" instance=ExtResource("1_ktehp")]
+position = Vector2(0, 160)
+
+[node name="hexagon6" parent="x12" instance=ExtResource("1_ktehp")]
+position = Vector2(0, 200)
+
+[node name="hexagon7" parent="x12" instance=ExtResource("1_ktehp")]
+position = Vector2(0, 240)
+
+[node name="hexagon8" parent="x12" instance=ExtResource("1_ktehp")]
+position = Vector2(0, 280)
+
+[node name="hexagon9" parent="x12" instance=ExtResource("1_ktehp")]
+position = Vector2(0, 320)
+
+[node name="hexagon10" parent="x12" instance=ExtResource("1_ktehp")]
+position = Vector2(0, 360)
+
+[node name="hexagon11" parent="x12" instance=ExtResource("1_ktehp")]
+position = Vector2(0, 400)
+
+[node name="hexagon12" parent="x12" instance=ExtResource("1_ktehp")]
+position = Vector2(0, 440)
+
+[node name="x13" type="Node2D" parent="."]
+position = Vector2(468, 20)
+script = ExtResource("3_1f2vw")
+
+[node name="hexagon" parent="x13" instance=ExtResource("1_ktehp")]
+
+[node name="hexagon2" parent="x13" instance=ExtResource("1_ktehp")]
+position = Vector2(0, 40)
+
+[node name="hexagon3" parent="x13" instance=ExtResource("1_ktehp")]
+position = Vector2(0, 80)
+
+[node name="hexagon4" parent="x13" instance=ExtResource("1_ktehp")]
+position = Vector2(0, 120)
+
+[node name="hexagon5" parent="x13" instance=ExtResource("1_ktehp")]
+position = Vector2(0, 160)
+
+[node name="hexagon6" parent="x13" instance=ExtResource("1_ktehp")]
+position = Vector2(0, 200)
+
+[node name="hexagon7" parent="x13" instance=ExtResource("1_ktehp")]
+position = Vector2(0, 240)
+
+[node name="hexagon8" parent="x13" instance=ExtResource("1_ktehp")]
+position = Vector2(0, 280)
+
+[node name="hexagon9" parent="x13" instance=ExtResource("1_ktehp")]
+position = Vector2(0, 320)
+
+[node name="hexagon10" parent="x13" instance=ExtResource("1_ktehp")]
+position = Vector2(0, 360)
+
+[node name="hexagon11" parent="x13" instance=ExtResource("1_ktehp")]
+position = Vector2(0, 400)
+
+[node name="hexagon12" parent="x13" instance=ExtResource("1_ktehp")]
+position = Vector2(0, 440)
+
+[node name="x14" type="Node2D" parent="."]
+position = Vector2(504, 0)
+script = ExtResource("3_1f2vw")
+
+[node name="hexagon" parent="x14" instance=ExtResource("1_ktehp")]
+
+[node name="hexagon2" parent="x14" instance=ExtResource("1_ktehp")]
+position = Vector2(0, 40)
+
+[node name="hexagon3" parent="x14" instance=ExtResource("1_ktehp")]
+position = Vector2(0, 80)
+
+[node name="hexagon4" parent="x14" instance=ExtResource("1_ktehp")]
+position = Vector2(0, 120)
+
+[node name="hexagon5" parent="x14" instance=ExtResource("1_ktehp")]
+position = Vector2(0, 160)
+
+[node name="hexagon6" parent="x14" instance=ExtResource("1_ktehp")]
+position = Vector2(0, 200)
+
+[node name="hexagon7" parent="x14" instance=ExtResource("1_ktehp")]
+position = Vector2(0, 240)
+
+[node name="hexagon8" parent="x14" instance=ExtResource("1_ktehp")]
+position = Vector2(0, 280)
+
+[node name="hexagon9" parent="x14" instance=ExtResource("1_ktehp")]
+position = Vector2(0, 320)
+
+[node name="hexagon10" parent="x14" instance=ExtResource("1_ktehp")]
+position = Vector2(0, 360)
+
+[node name="hexagon11" parent="x14" instance=ExtResource("1_ktehp")]
+position = Vector2(0, 400)
+
+[node name="hexagon12" parent="x14" instance=ExtResource("1_ktehp")]
+position = Vector2(0, 440)
+
+[node name="x15" type="Node2D" parent="."]
+position = Vector2(540, 20)
+script = ExtResource("3_1f2vw")
+
+[node name="hexagon" parent="x15" instance=ExtResource("1_ktehp")]
+
+[node name="hexagon2" parent="x15" instance=ExtResource("1_ktehp")]
+position = Vector2(0, 40)
+
+[node name="hexagon3" parent="x15" instance=ExtResource("1_ktehp")]
+position = Vector2(0, 80)
+
+[node name="hexagon4" parent="x15" instance=ExtResource("1_ktehp")]
+position = Vector2(0, 120)
+
+[node name="hexagon5" parent="x15" instance=ExtResource("1_ktehp")]
+position = Vector2(0, 160)
+
+[node name="hexagon6" parent="x15" instance=ExtResource("1_ktehp")]
+position = Vector2(0, 200)
+
+[node name="hexagon7" parent="x15" instance=ExtResource("1_ktehp")]
+position = Vector2(0, 240)
+
+[node name="hexagon8" parent="x15" instance=ExtResource("1_ktehp")]
+position = Vector2(0, 280)
+
+[node name="hexagon9" parent="x15" instance=ExtResource("1_ktehp")]
+position = Vector2(0, 320)
+
+[node name="hexagon10" parent="x15" instance=ExtResource("1_ktehp")]
+position = Vector2(0, 360)
+
+[node name="hexagon11" parent="x15" instance=ExtResource("1_ktehp")]
+position = Vector2(0, 400)
+
+[node name="hexagon12" parent="x15" instance=ExtResource("1_ktehp")]
+position = Vector2(0, 440)
+
+[node name="x16" type="Node2D" parent="."]
+position = Vector2(576, 0)
+script = ExtResource("3_1f2vw")
+
+[node name="hexagon" parent="x16" instance=ExtResource("1_ktehp")]
+
+[node name="hexagon2" parent="x16" instance=ExtResource("1_ktehp")]
+position = Vector2(0, 40)
+
+[node name="hexagon3" parent="x16" instance=ExtResource("1_ktehp")]
+position = Vector2(0, 80)
+
+[node name="hexagon4" parent="x16" instance=ExtResource("1_ktehp")]
+position = Vector2(0, 120)
+
+[node name="hexagon5" parent="x16" instance=ExtResource("1_ktehp")]
+position = Vector2(0, 160)
+
+[node name="hexagon6" parent="x16" instance=ExtResource("1_ktehp")]
+position = Vector2(0, 200)
+
+[node name="hexagon7" parent="x16" instance=ExtResource("1_ktehp")]
+position = Vector2(0, 240)
+
+[node name="hexagon8" parent="x16" instance=ExtResource("1_ktehp")]
+position = Vector2(0, 280)
+
+[node name="hexagon9" parent="x16" instance=ExtResource("1_ktehp")]
+position = Vector2(0, 320)
+
+[node name="hexagon10" parent="x16" instance=ExtResource("1_ktehp")]
+position = Vector2(0, 360)
+
+[node name="hexagon11" parent="x16" instance=ExtResource("1_ktehp")]
+position = Vector2(0, 400)
+
+[node name="hexagon12" parent="x16" instance=ExtResource("1_ktehp")]
+position = Vector2(0, 440)
+
+[node name="x17" type="Node2D" parent="."]
+position = Vector2(612, 20)
+script = ExtResource("3_1f2vw")
+
+[node name="hexagon" parent="x17" instance=ExtResource("1_ktehp")]
+
+[node name="hexagon2" parent="x17" instance=ExtResource("1_ktehp")]
+position = Vector2(0, 40)
+
+[node name="hexagon3" parent="x17" instance=ExtResource("1_ktehp")]
+position = Vector2(0, 80)
+
+[node name="hexagon4" parent="x17" instance=ExtResource("1_ktehp")]
+position = Vector2(0, 120)
+
+[node name="hexagon5" parent="x17" instance=ExtResource("1_ktehp")]
+position = Vector2(0, 160)
+
+[node name="hexagon6" parent="x17" instance=ExtResource("1_ktehp")]
+position = Vector2(0, 200)
+
+[node name="hexagon7" parent="x17" instance=ExtResource("1_ktehp")]
+position = Vector2(0, 240)
+
+[node name="hexagon8" parent="x17" instance=ExtResource("1_ktehp")]
+position = Vector2(0, 280)
+
+[node name="hexagon9" parent="x17" instance=ExtResource("1_ktehp")]
+position = Vector2(0, 320)
+
+[node name="hexagon10" parent="x17" instance=ExtResource("1_ktehp")]
+position = Vector2(0, 360)
+
+[node name="hexagon11" parent="x17" instance=ExtResource("1_ktehp")]
+position = Vector2(0, 400)
+
+[node name="hexagon12" parent="x17" instance=ExtResource("1_ktehp")]
+position = Vector2(0, 440)
+
+[node name="x18" type="Node2D" parent="."]
+position = Vector2(648, 0)
+script = ExtResource("3_1f2vw")
+
+[node name="hexagon" parent="x18" instance=ExtResource("1_ktehp")]
+
+[node name="hexagon2" parent="x18" instance=ExtResource("1_ktehp")]
+position = Vector2(0, 40)
+
+[node name="hexagon3" parent="x18" instance=ExtResource("1_ktehp")]
+position = Vector2(0, 80)
+
+[node name="hexagon4" parent="x18" instance=ExtResource("1_ktehp")]
+position = Vector2(0, 120)
+
+[node name="hexagon5" parent="x18" instance=ExtResource("1_ktehp")]
+position = Vector2(0, 160)
+
+[node name="hexagon6" parent="x18" instance=ExtResource("1_ktehp")]
+position = Vector2(0, 200)
+
+[node name="hexagon7" parent="x18" instance=ExtResource("1_ktehp")]
+position = Vector2(0, 240)
+
+[node name="hexagon8" parent="x18" instance=ExtResource("1_ktehp")]
+position = Vector2(0, 280)
+
+[node name="hexagon9" parent="x18" instance=ExtResource("1_ktehp")]
+position = Vector2(0, 320)
+
+[node name="hexagon10" parent="x18" instance=ExtResource("1_ktehp")]
+position = Vector2(0, 360)
+
+[node name="hexagon11" parent="x18" instance=ExtResource("1_ktehp")]
+position = Vector2(0, 400)
+
+[node name="hexagon12" parent="x18" instance=ExtResource("1_ktehp")]
+position = Vector2(0, 440)
+
+[node name="x19" type="Node2D" parent="."]
+position = Vector2(684, 20)
+script = ExtResource("3_1f2vw")
+
+[node name="hexagon" parent="x19" instance=ExtResource("1_ktehp")]
+
+[node name="hexagon2" parent="x19" instance=ExtResource("1_ktehp")]
+position = Vector2(0, 40)
+
+[node name="hexagon3" parent="x19" instance=ExtResource("1_ktehp")]
+position = Vector2(0, 80)
+
+[node name="hexagon4" parent="x19" instance=ExtResource("1_ktehp")]
+position = Vector2(0, 120)
+
+[node name="hexagon5" parent="x19" instance=ExtResource("1_ktehp")]
+position = Vector2(0, 160)
+
+[node name="hexagon6" parent="x19" instance=ExtResource("1_ktehp")]
+position = Vector2(0, 200)
+
+[node name="hexagon7" parent="x19" instance=ExtResource("1_ktehp")]
+position = Vector2(0, 240)
+
+[node name="hexagon8" parent="x19" instance=ExtResource("1_ktehp")]
+position = Vector2(0, 280)
+
+[node name="hexagon9" parent="x19" instance=ExtResource("1_ktehp")]
+position = Vector2(0, 320)
+
+[node name="hexagon10" parent="x19" instance=ExtResource("1_ktehp")]
+position = Vector2(0, 360)
+
+[node name="hexagon11" parent="x19" instance=ExtResource("1_ktehp")]
+position = Vector2(0, 400)
+
+[node name="hexagon12" parent="x19" instance=ExtResource("1_ktehp")]
+position = Vector2(0, 440)
+
+[node name="x20" type="Node2D" parent="."]
+position = Vector2(720, 0)
+script = ExtResource("3_1f2vw")
+
+[node name="hexagon" parent="x20" instance=ExtResource("1_ktehp")]
+
+[node name="hexagon2" parent="x20" instance=ExtResource("1_ktehp")]
+position = Vector2(0, 40)
+
+[node name="hexagon3" parent="x20" instance=ExtResource("1_ktehp")]
+position = Vector2(0, 80)
+
+[node name="hexagon4" parent="x20" instance=ExtResource("1_ktehp")]
+position = Vector2(0, 120)
+
+[node name="hexagon5" parent="x20" instance=ExtResource("1_ktehp")]
+position = Vector2(0, 160)
+
+[node name="hexagon6" parent="x20" instance=ExtResource("1_ktehp")]
+position = Vector2(0, 200)
+
+[node name="hexagon7" parent="x20" instance=ExtResource("1_ktehp")]
+position = Vector2(0, 240)
+
+[node name="hexagon8" parent="x20" instance=ExtResource("1_ktehp")]
+position = Vector2(0, 280)
+
+[node name="hexagon9" parent="x20" instance=ExtResource("1_ktehp")]
+position = Vector2(0, 320)
+
+[node name="hexagon10" parent="x20" instance=ExtResource("1_ktehp")]
+position = Vector2(0, 360)
+
+[node name="hexagon11" parent="x20" instance=ExtResource("1_ktehp")]
+position = Vector2(0, 400)
+
+[node name="hexagon12" parent="x20" instance=ExtResource("1_ktehp")]
+position = Vector2(0, 440)
+
+[node name="x21" type="Node2D" parent="."]
+position = Vector2(756, 20)
+script = ExtResource("3_1f2vw")
+
+[node name="hexagon" parent="x21" instance=ExtResource("1_ktehp")]
+
+[node name="hexagon2" parent="x21" instance=ExtResource("1_ktehp")]
+position = Vector2(0, 40)
+
+[node name="hexagon3" parent="x21" instance=ExtResource("1_ktehp")]
+position = Vector2(0, 80)
+
+[node name="hexagon4" parent="x21" instance=ExtResource("1_ktehp")]
+position = Vector2(0, 120)
+
+[node name="hexagon5" parent="x21" instance=ExtResource("1_ktehp")]
+position = Vector2(0, 160)
+
+[node name="hexagon6" parent="x21" instance=ExtResource("1_ktehp")]
+position = Vector2(0, 200)
+
+[node name="hexagon7" parent="x21" instance=ExtResource("1_ktehp")]
+position = Vector2(0, 240)
+
+[node name="hexagon8" parent="x21" instance=ExtResource("1_ktehp")]
+position = Vector2(0, 280)
+
+[node name="hexagon9" parent="x21" instance=ExtResource("1_ktehp")]
+position = Vector2(0, 320)
+
+[node name="hexagon10" parent="x21" instance=ExtResource("1_ktehp")]
+position = Vector2(0, 360)
+
+[node name="hexagon11" parent="x21" instance=ExtResource("1_ktehp")]
+position = Vector2(0, 400)
+
+[node name="hexagon12" parent="x21" instance=ExtResource("1_ktehp")]
+position = Vector2(0, 440)
+
+[node name="x22" type="Node2D" parent="."]
+position = Vector2(792, 0)
+script = ExtResource("3_1f2vw")
+
+[node name="hexagon" parent="x22" instance=ExtResource("1_ktehp")]
+
+[node name="hexagon2" parent="x22" instance=ExtResource("1_ktehp")]
+position = Vector2(0, 40)
+
+[node name="hexagon3" parent="x22" instance=ExtResource("1_ktehp")]
+position = Vector2(0, 80)
+
+[node name="hexagon4" parent="x22" instance=ExtResource("1_ktehp")]
+position = Vector2(0, 120)
+
+[node name="hexagon5" parent="x22" instance=ExtResource("1_ktehp")]
+position = Vector2(0, 160)
+
+[node name="hexagon6" parent="x22" instance=ExtResource("1_ktehp")]
+position = Vector2(0, 200)
+
+[node name="hexagon7" parent="x22" instance=ExtResource("1_ktehp")]
+position = Vector2(0, 240)
+
+[node name="hexagon8" parent="x22" instance=ExtResource("1_ktehp")]
+position = Vector2(0, 280)
+
+[node name="hexagon9" parent="x22" instance=ExtResource("1_ktehp")]
+position = Vector2(0, 320)
+
+[node name="hexagon10" parent="x22" instance=ExtResource("1_ktehp")]
+position = Vector2(0, 360)
+
+[node name="hexagon11" parent="x22" instance=ExtResource("1_ktehp")]
+position = Vector2(0, 400)
+
+[node name="hexagon12" parent="x22" instance=ExtResource("1_ktehp")]
+position = Vector2(0, 440)

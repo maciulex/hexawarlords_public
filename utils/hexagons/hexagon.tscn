@@ -1,0 +1,30 @@
+[gd_scene load_steps=3 format=3 uid="uid://bexipc5vc38r"]
+
+[ext_resource type="Script" path="res://utils/hexagons/hexagon.gd" id="1_3sbi2"]
+
+[sub_resource type="ConvexPolygonShape2D" id="ConvexPolygonShape2D_ogp3d"]
+points = PackedVector2Array(64, 32, 40, 72, -8, 72, -32, 32, -8, -8, 40, -8)
+
+[node name="hexagon" type="Node2D"]
+scale = Vector2(0.5, 0.5)
+script = ExtResource("1_3sbi2")
+metadata/_edit_lock_ = true
+
+[node name="poly" type="Polygon2D" parent="."]
+position = Vector2(-16, -32)
+color = Color(1, 1, 1, 0)
+polygon = PackedVector2Array(64, 32, 40, 72, -8, 72, -32, 32, -8, -8, 40, -8)
+metadata/_edit_lock_ = true
+
+[node name="Border" type="Line2D" parent="."]
+position = Vector2(8, 32)
+points = PackedVector2Array(-41, -7, -32, 8, 16, 8, 40, -32, 16, -72, -32, -72, -56, -32, -41, -7)
+width = 2.0
+default_color = Color(1, 1, 1, 0.458824)
+metadata/_edit_lock_ = true
+
+[node name="TouchScreenButton" type="TouchScreenButton" parent="."]
+position = Vector2(-16, -32)
+shape = SubResource("ConvexPolygonShape2D_ogp3d")
+
+[connection signal="pressed" from="TouchScreenButton" to="." method="_on_touch_screen_button_pressed"]

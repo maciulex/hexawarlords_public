@@ -1,0 +1,32 @@
+[gd_scene load_steps=2 format=3 uid="uid://bykhq1hyfp77f"]
+
+[ext_resource type="Script" path="res://utils/unit/unit.gd" id="1_vmryn"]
+
+[node name="unit" type="Node2D"]
+script = ExtResource("1_vmryn")
+
+[node name="texture" type="Sprite2D" parent="."]
+
+[node name="poly2" type="Polygon2D" parent="."]
+position = Vector2(-4, -8)
+scale = Vector2(0.25, 0.25)
+color = Color(1, 1, 1, 0.607843)
+polygon = PackedVector2Array(64, 32, 40, 72, -8, 72, -32, 32, -8, -8, 40, -8)
+
+[node name="manpower" type="RichTextLabel" parent="poly2"]
+modulate = Color(0, 0, 1, 1)
+offset_left = -8.0
+offset_top = -16.0
+offset_right = 56.0
+offset_bottom = 40.0
+theme_override_font_sizes/normal_font_size = 40
+text = "12"
+
+[node name="morale" type="RichTextLabel" parent="poly2"]
+modulate = Color(1, 0, 0, 1)
+offset_left = -8.0
+offset_top = 24.0
+offset_right = 64.0
+offset_bottom = 80.0
+theme_override_font_sizes/normal_font_size = 40
+text = "12"

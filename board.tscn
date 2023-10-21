@@ -1,0 +1,49 @@
+[gd_scene load_steps=2 format=3 uid="uid://bcsnam2mslvpr"]
+
+[ext_resource type="PackedScene" uid="uid://cw6mly0fvu8bi" path="res://utils/hexagons/hex_grid.tscn" id="1_51nwm"]
+
+[node name="Board" type="Node2D"]
+position = Vector2(-1, 0)
+metadata/_edit_lock_ = true
+
+[node name="SuperBorder" type="Polygon2D" parent="."]
+clip_children = 1
+z_index = 50
+z_as_relative = false
+position = Vector2(-42, 10)
+polygon = PackedVector2Array(54, -10, 42, 10, 54, 30, 42, 50, 54, 70, 42, 90, 54, 110, 42, 130, 54, 150, 42, 170, 54, 190, 42, 210, 54, 230, 42, 250, 54, 270, 42, 290, 54, 310, 42, 330, 54, 350, 42, 370, 54, 390, 42, 410, 54, 430, 42, 450, 54, 470, 78, 470, 90, 490, 114, 490, 126, 470, 150, 470, 162, 490, 186, 490, 198, 470, 222, 470, 234, 490, 258, 490, 270, 470, 294, 470, 306, 490, 330, 490, 342, 470, 366, 470, 378, 490, 402, 490, 414, 470, 438, 470, 450, 490, 474, 490, 486, 470, 510, 470, 522, 490, 546, 490, 558, 470, 582, 470, 594, 490, 618, 490, 630, 470, 654, 470, 666, 490, 690, 490, 702, 470, 726, 470, 738, 490, 762, 490, 774, 470, 798, 470, 810, 490, 834, 490, 846, 470, 870, 470, 882, 450, 870, 430, 882, 410, 870, 390, 882, 370, 870, 350, 882, 330, 870, 310, 882, 290, 870, 270, 882, 250, 870, 230, 882, 210, 870, 190, 882, 170, 870, 150, 882, 130, 870, 110, 882, 90, 870, 70, 882, 50, 870, 30, 882, 10, 870, -10, 846, -10, 834, 10, 810, 10, 798, -10, 774, -10, 762, 10, 738, 10, 726, -10, 702, -10, 690, 10, 666, 10, 654, -10, 630, -10, 618, 10, 594, 10, 582, -10, 558, -10, 546, 10, 522, 10, 510, -10, 486, -10, 474, 10, 450, 10, 438, -10, 414, -10, 402, 10, 378, 10, 366, -10, 342, -10, 330, 10, 306, 10, 294, -10, 270, -10, 258, 10, 234, 10, 222, -10, 198, -10, 186, 10, 162, 10, 150, -10, 126, -10, 114, 10, 90, 10, 78, -10)
+metadata/_edit_lock_ = true
+
+[node name="Icons" type="Node2D" parent="SuperBorder"]
+z_index = 11
+position = Vector2(66, 10)
+metadata/_edit_lock_ = true
+
+[node name="hexGrid" parent="SuperBorder" instance=ExtResource("1_51nwm")]
+z_index = 10
+position = Vector2(66, 10)
+metadata/_edit_lock_ = true
+
+[node name="Graphic" type="Node2D" parent="SuperBorder"]
+position = Vector2(66, 10)
+metadata/_edit_lock_ = true
+
+[node name="hexGridColors" parent="SuperBorder/Graphic" instance=ExtResource("1_51nwm")]
+position = Vector2(0, 0)
+
+[node name="Filds" type="Node2D" parent="SuperBorder/Graphic"]
+metadata/_edit_lock_ = true
+
+[node name="Cities" type="Node2D" parent="SuperBorder/Graphic"]
+metadata/_edit_lock_ = true
+
+[node name="Water" type="Node2D" parent="SuperBorder/Graphic"]
+metadata/_edit_lock_ = true
+
+[node name="Solders" type="Node2D" parent="SuperBorder/Graphic"]
+z_index = 999
+z_as_relative = false
+metadata/_edit_lock_ = true
+
+[node name="Explosion" type="Node2D" parent="SuperBorder/Graphic"]
+z_index = 3000
